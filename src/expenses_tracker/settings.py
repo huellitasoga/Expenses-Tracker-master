@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "thisisnotasecretkey")
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "181.10.46.189:8001",
+    "pp.mpfcjc.duckdns.org",
     os.environ.get("ALLOWED_HOST", "allowed_host"),
 ]
 
